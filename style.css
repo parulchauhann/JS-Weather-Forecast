@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+    text-align: center;
+    background-color: rgba(114, 42, 197, 0.904);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(114, 42, 197, 0.904);
+}
+
+section{
+    margin: 4vw;
+}
+#right{    
+    background-color: rgba(114, 42, 197, 0.904);
+    border-radius: 15px;
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px black;
+}
+
+#day{
+    margin-right: 1vw;
+}
+
+#location {
+  font-size: 4vw;
+}
+
+#left h1{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 900;
+    margin-bottom: 1vw;
+    text-shadow: 2px 2px rgb(68, 68, 68);
+}
+#searchLocation{
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    text-align: left;
+    height: 35px;
+    justify-content: flex-start;
+    font-size: 15px;
+    padding: 10px;
+    color: rgb(46, 46, 46);
+    background-color: white;
+}
+#date-day{
+    text-transform: capitalize;
+    font-size: 3vw;
+}
+#searchLocation::placeholder{
+    text-align: left;
+}
+
+.tab-1{
+    
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+}
+.tab-1 h1{
+    color: rgb(255, 255, 255);
+    font-size: 7vw;
+    margin-left: 2vw;
+}
+.tab-2 div{
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+}
+#search{
+    width: fit-content;
+    padding: 1vw;
+    color: white;
+    border: 1px solid white;
+    margin: 1vw;
+    cursor: pointer;
+}
+.input-loc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vw;
+    
+}
+#location{
+    text-align: center;
+    font-size: 4vw;
+}
